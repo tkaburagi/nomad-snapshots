@@ -4,7 +4,7 @@ job "api-go" {
   type = "service"
 
   group "api-go" {
-    count = 3
+    count = 1
     task "api-go" {
       driver = "raw_exec"
       config {
