@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http:///www.thymeleaf.org">
+<head>
+    <link rel="stylesheet"
+          href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css" />
+    <script src="https://kit.fontawesome.com/cfad4d1391.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Nunito:700'
+          rel='stylesheet' type='text/css' />
+
+    <style type="text/css">
+        table {
+            width: 1500px;
+        }
+
+
+        div.ta0 {
+            text-align: left;
+            align-items: center;
+            overflow-x: auto;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .logo {
+            font-family: 'Nunito', sans-serif;
+        }
+
+        ul {
+            width:400px;
+        }
+
+        ul li {
+            float:left;
+            width:200px;
+            margin-top: 5px;
+        }
+
+        .my-parts ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        .my-parts ul li a {
+            display: block;
+            text-decoration: none;
+            background: #fff;
+            color: #333;
+            text-align: left;
+            margin-top: 0px;
+        }
+
+    </style>
+
+
+    <meta charset="UTF-8" />
+    <title>HashiCorp Nomad Demo</title>
+</head>
+
+<body>
+
+<div class="ta0" style="margin:50px;">
+    <h2 class="logo">Version and API Location</h2>
+    <h2 class="logo"><p th:text="|API Location: ${api}|"></p> </h2>
+    <h2 class="logo"><p th:text="|Version: ${version}|"></p> </h2>
+</div>
+</body>
+</html>
