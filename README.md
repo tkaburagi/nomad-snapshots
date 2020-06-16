@@ -31,6 +31,7 @@ nomad agent -config=nomad-local-config-server-cluster.hcl &
 nomad agent -config=nomad-local-config-client-1.hcl &
 nomad agent -config=nomad-local-config-client-2.hcl &
 nomad agent -config=nomad-local-config-client-3.hcl &
+EOF
 ```
 
 ```sh
