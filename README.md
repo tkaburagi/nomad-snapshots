@@ -2,6 +2,10 @@
 
 ![](diagram.png)
 
+## Slide
+
+https://docs.google.com/presentation/d/1OQUGiblZ7nTyRMiJ46EKO9xq-9qh8X2mnPv9xvGRsCQ/edit?usp=sharing
+
 ## Setup
 
 1. Copy the configs
